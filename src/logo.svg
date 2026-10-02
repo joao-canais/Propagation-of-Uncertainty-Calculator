@@ -1,0 +1,20 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 120 120">
+  <defs>
+    <linearGradient id="whiteGlow" x1="0" y1="25" x2="0" y2="100" gradientUnits="userSpaceOnUse">
+      <stop offset="0%" stop-color="#ffffff" stop-opacity="0.45"/>
+      <stop offset="100%" stop-color="#ffffff" stop-opacity="0"/>
+    </linearGradient>
+  </defs>
+  <line x1="10" y1="100" x2="110" y2="100" stroke="#a3a3a3" stroke-width="2.5" stroke-linecap="round"/>
+  <line x1="60" y1="20" x2="60" y2="100" stroke="#a3a3a3" stroke-width="2" stroke-dasharray="3,3"/>
+  <path d="M 10 100 
+           L 10 99 
+           C 35 99, 44 95, 50 65 
+           C 54 45, 57 25, 60 25 
+           C 63 25, 66 45, 70 65 
+           C 76 95, 85 99, 110 99 
+           L 110 100 Z" 
+        fill="url(#whiteGlow)"/>
+  <path d="M 10 99 C 35 99, 44 95, 50 65 C 54 45, 57 25, 60 25 C 63 25, 66 45, 70 65 C 76 95, 85 99, 110 99" 
+        fill="none" stroke="#ffffff" stroke-width="3.5" stroke-linecap="round"/>
+</svg>

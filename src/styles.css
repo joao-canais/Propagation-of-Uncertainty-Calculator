@@ -1,0 +1,106 @@
+/* Module with most of the CSS styles for the Streamlit app */
+
+/* Global Streamlit layout */
+.block-container {
+    padding-top: 3.5rem !important;
+    padding-bottom: 2rem !important;
+}
+
+.stAppDeployButton {
+    display: none !important;
+}
+
+/* GitHub link in the sidebar */
+.github-link {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    text-decoration: none !important;
+    color: #b0b0b0 !important;
+    font-size: 0.88rem;
+    padding: 8px 12px;
+    border-radius: 6px;
+    transition: background-color 0.2s ease, color 0.2s ease;
+}
+
+.github-link svg {
+    fill: currentColor !important;
+}
+
+.github-link:hover {
+    background-color: #333333 !important;
+    color: #ffffff !important;
+}
+
+/* Excel copy button */
+#copy-btn {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 400;
+    padding: 0.25rem 0.75rem;
+    border-radius: 0.5rem;
+    min-height: 38.4px;
+    margin: 0px;
+    line-height: 1.6;
+    color: #fafafa;
+    background-color: #1a1a1a;
+    border: 1px solid rgba(250, 250, 250, 0.2);
+    cursor: pointer;
+    user-select: none;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    font-size: 14px;
+    transition: border-color 0.2s ease, color 0.2s ease, background-color 0.2s ease;
+}
+
+#copy-btn:hover {
+    background-color: #333333;
+}
+
+#copy-btn.copied {
+    background-color: #0f5733 !important;
+}
+
+/* Clickable KaTeX formulas */
+.copy-excel-frame,
+.latex-frame {
+    margin: 0;
+    padding: 0;
+    background: transparent;
+    height: 100%;
+    overflow-y: hidden;
+    overflow-x: auto;
+}
+
+.latex-frame::-webkit-scrollbar {
+    height: 8px;
+}
+
+.latex-frame::-webkit-scrollbar-track {
+    background: transparent;
+}
+
+.latex-frame::-webkit-scrollbar-thumb {
+    background: rgba(255, 255, 255, 0.35);
+    border-radius: 4px;
+}
+
+.latex-frame::-webkit-scrollbar-thumb:hover {
+    background: rgba(255, 255, 255, 0.45);
+}
+
+#math-container {
+    cursor: pointer;
+    display: block;
+    width: max-content;
+    min-width: 100%;
+    padding: 10px 4px 14px 4px;
+    box-sizing: border-box;
+    color: #ffffff;
+    user-select: none;
+    transition: color 0.45s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.2s ease;
+}
+
+#math-container:hover {
+    opacity: 0.85;
+}
