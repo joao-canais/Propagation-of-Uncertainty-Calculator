@@ -10,11 +10,11 @@
 
 You can access the application online at [Propagation of Uncertainty Calculator](https://propagation-of-uncertainty-calculator.streamlit.app) or run it locally by cloning this repository.
 
-https://github.com/user-attachments/assets/67395d3c-2b7d-4b6b-9825-8eeb8c6a9406
-
 ## Overview
 
 A Streamlit-based web application designed to assist engineering and physics students with experimental measurement analysis and metrology. This tool computes **partial derivatives**, performs **propagation of uncertainty**, and generates **exportable outputs** in LaTeX and Excel formats, optimizing the workflow and lab reports.
+
+https://github.com/user-attachments/assets/67395d3c-2b7d-4b6b-9825-8eeb8c6a9406
 
 ## Key Features
 
